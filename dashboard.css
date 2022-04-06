@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+/* estilos form*/
+#section-form {
+    padding: 80px;
+}
+#section-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#section-form > form > input {
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: 3px solid rgb(94, 87, 87);
+    font-size: 1.1rem;
+    font-family: monospace;
+    background: rgba(238, 236, 236, 0.932);
+    transition: all 300ms;
+}
+#section-form > form > input:hover{
+        border: 3px solid #0f3b84;
+}
+#section-form > form > button {
+    padding: 12px 8px;
+    border-radius: 10px;
+    background:linear-gradient(270deg, #0f3b84, #6282F9, #0f3b84);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+#section-form > form > button:hover {
+    transform: scale(.98);
+}
+#section-form > h1 {
+    padding: 12px 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: #0f3b84;
+    -webkit-text-stroke: 2px solid rgb(90, 90, 90);
+}
+/* estilos tabla */
+
+
+#section-table > table {
+    width: 100%;
+}
+
+#section-table >table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#section-table > table > thead > tr > th {
+    background-color: #0f3b84;
+    padding: 10px 0px;
+    color: white;
+}
+#section-table > table > tbody > tr > td {
+    text-align: center;
+    padding: 5px 0px;
+}
