@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>form & dashboard</title>
+    <script src="https://kit.fontawesome.com/174974c2b6.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <main>
+        <section id="section-form">
+            <h1>ADMINISTRADORES</h1>
+            <form>
+                <input id="inName" type="text" placeholder="Nombre y Apellido">
+                <input id="inEmail" type="email" placeholder="Correo">
+                <input id="inID" type="text" placeholder="ID">
+                <button id="btnAddUpdate">AGREGAR</button>
+            </form>
+        </section>
+        <section id="section-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre y Apellido</th>
+                        <th>Correo</th>
+                        <th>ID</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyAdministradores">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./ADMINISTRADOR.js"></script>
+    <script src="./administradores.js"></script>
+    <script src="./dashboard.js"></script>
+</body>
+</html>
