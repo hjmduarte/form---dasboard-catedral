@@ -7,10 +7,15 @@ main {
     display: flex;
     flex-direction: column;
     padding: 10px 20px;
+    gap: 10px;
+
 }
 /* estilos form*/
 #section-form {
     padding: 80px;
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px black;
 }
 #section-form > form {
     max-width: 100%;
